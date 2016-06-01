@@ -1,0 +1,17 @@
+<div class="container">
+ <div class=row style="width:500px;margin-left: 250px;">
+<p><%= link_to "Add User", {:action => 'new' }%></p>     
+ <div class="col-md-4" >
+ <% @contacts.each do |f| %>
+ </div>
+  <div class="col-md-4" style="margin-bottom: 25px;">
+ <p class="round-image-75"> <%= image_tag(f.contactimage) %></p>
+   <b><%= f.name %><br></b>
+    <%= f.relationship %><br>
+ <% end %>
+  </div>
+</div>
+</div>
+<br><br>
+
+
