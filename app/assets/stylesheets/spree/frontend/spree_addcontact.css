@@ -13,3 +13,16 @@
 img{
     width:100%;
 }
+
+.circle{
+    width:100px;
+    height:100px;
+    border: 1px solid #d9d9d9;
+    border-radius:50px ;
+    font-size:20px;
+    color:#d9d9d9;
+    line-height:100px;
+    text-align:center;
+    background:#fff;
+    
+}
