@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_addcontact'
-  s.version     = '3.0.9'
+  s.version     = '3.0.7'
   s.summary     = 'contact '
   s.description = 'contact'
   s.required_ruby_version = '>= 2.1.0'
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency 'spree_core', '~> 3.0.9'
+  s.add_dependency 'spree_core', '~> 3.0.7'
 
   s.add_development_dependency 'capybara', '~> 2.6'
   s.add_development_dependency 'coffee-rails'
