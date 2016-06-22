@@ -38,7 +38,10 @@
     <%= f.file_field :contactimage %>
   </div>
   
- <%= render :partial => 'spree/address/form', :locals => { :form => ship_form, :address_type => 'shipping', :address => @order.ship_address } %>
+  <div class="form-group">
+   <%= render :partial => 'spree/address/form', :locals => { :form => ship_form, :address_type => 'shipping', :address => @order.ship_address } %>
+  </div>
+ 
   <div class="circle">
     <%= f.submit  "Save Contact", class: "btn btn-primary"  %>
   </div>
